@@ -11,9 +11,9 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/Avanishsri31/React-Portfolio/main/src/assets/Avanish.pdf`
-
-
+const resumeLink = `https://raw.githubusercontent.com/stephen-dev/main/src/assets/stephen.pdf`
+// https://raw.githubusercontent.com/stephen-dev/blob/main/src/assets/stephen.pdf
+// https://arockiyastephen.netlify.app/static/media/stephen.481895efbab0721860a.pdf
 const Resume = () => {
   const [width, setWidth] = useState(1200);
 
