@@ -17,12 +17,16 @@ import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader"
 import ScrollToTop from "./components/ScrollToTop"
 
+import ReactGA from "react-ga4";
+
+
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);
+  ReactGA.initialize("G-TP7LWWGXXK");
 
   useEffect(() => {
     const timer = setTimeout(() => {
